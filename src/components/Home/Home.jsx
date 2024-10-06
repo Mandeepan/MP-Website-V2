@@ -1,7 +1,7 @@
 
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
-import IMAGES from '../images/IMAGES'
+import profileImage from '../../assets/images/profile.jpg';
 
 const socialIcons={
   linkedIn: "linkedin-icon.svg",
@@ -25,7 +25,7 @@ const Home = () => {
           <div></div>
         </div>
         <section className="profile-section">
-          <img src={IMAGES.image1} alt="Profile Picture" className="profile-pic" />
+          <img src={profileImage} alt="Profile Picture" className="profile-pic" />
         </section>
         <div className="header-text" aria-hidden="true">
           <p>Hi, my name is</p>
